@@ -6,7 +6,7 @@ def run_test():
     data = {"users": [{"id": i, "name": f"User{i}"} for i in range(10000)]}
 
     start = time.time()
-
+ 
     # Simulate receiving JSON string
     json_string = json.dumps(data)
     parsed = json.loads(json_string)
